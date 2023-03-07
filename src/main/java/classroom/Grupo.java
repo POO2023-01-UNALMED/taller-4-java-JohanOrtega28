@@ -37,7 +37,7 @@ public class Grupo {
 		}
 	}
 	
-	void cambiarEstudiante(int indice, Persona estudiante) {
+	void cambiarEstudiantes(int indice, Persona estudiante) {
 		estudiantes[indice] = estudiante;
 	}
 }
