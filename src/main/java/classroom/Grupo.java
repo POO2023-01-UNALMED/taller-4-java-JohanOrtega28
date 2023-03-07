@@ -6,7 +6,7 @@ public class Grupo {
 	public Persona profesor;
 	public static int cantidadEstudiantes;
 	public Asignatura asignatura;
-	public int codigo = 0;
+	int codigo = 0;
 	public String horario;
 	
 	
