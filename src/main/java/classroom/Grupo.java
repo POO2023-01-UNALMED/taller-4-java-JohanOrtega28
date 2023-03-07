@@ -28,7 +28,7 @@ public class Grupo {
 		this.asignatura = asignatura;
 	}
 	
-	void cambiarEstudiantes(Persona estudianteViejo, Persona estudianteNuevo) {
+	void cambiarEstudiante(Persona estudianteViejo, Persona estudianteNuevo) {
 		for (int i = 0; i < estudiantes.length; i++) {
 			if (estudiantes[i].getCedula() == estudianteViejo.getCedula()) { 
 				estudiantes[i] = estudianteNuevo;
@@ -37,7 +37,7 @@ public class Grupo {
 		}
 	}
 	
-	void cambiarEstudiantes(int indice, Persona estudiante) {
+	void cambiarEstudiante(int indice, Persona estudiante) {
 		estudiantes[indice] = estudiante;
 	}
 }
